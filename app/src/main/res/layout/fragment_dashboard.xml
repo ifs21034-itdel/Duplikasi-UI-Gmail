@@ -17,6 +17,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/svFragmentDashboard"/>
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvMails"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:padding="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sbFragmentDashboard"
+        tools:listitem="@layout/item_row_mail" />
+
     <com.google.android.material.search.SearchView
         android:id="@+id/svFragmentDashboard"
         android:layout_width="0dp"

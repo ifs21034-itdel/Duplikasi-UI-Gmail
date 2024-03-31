@@ -1,5 +1,73 @@
 <resources>
     <string name="app_name">Gmail</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="info_mail_icon">Ikon Mail</string>
+    <string name="info_mail_name">Nama Pengirim</string>
+    <string name="info_mail_title">Judul Pesan</string>
+    <string name="info_mail_message">Pesan</string>
+    <string name="info_mail_time">Waktu</string>
+
+    <string-array name="mail_name">
+        <item>Bank BRI</item>
+        <item>Google Play</item>
+        <item>NASA</item>
+        <item>LinkedIn</item>
+        <item>Discord</item>
+        <item>Info Beasiswa</item>
+        <item>Kaegle</item>
+        <item>Duolingo</item>
+        <item>Quora</item>
+        <item>GeeksforGeeks</item>
+    </string-array>
+
+    <string-array name="mail_time">
+        <item>13:23</item>
+        <item>12:00</item>
+        <item>09:00</item>
+        <item>06:13</item>
+        <item>03:00</item>
+        <item>01:02</item>
+        <item>Mar 30</item>
+        <item>Mar 29</item>
+        <item>Mar 25</item>
+        <item>Mar 25</item>
+    </string-array>
+
+    <string-array name="mail_icon">
+        <item>@drawable/account</item>
+        <item>@drawable/account</item>
+        <item>@drawable/account</item>
+        <item>@drawable/account</item>
+        <item>@drawable/account</item>
+        <item>@drawable/account</item>
+        <item>@drawable/account</item>
+        <item>@drawable/account</item>
+        <item>@drawable/account</item>
+        <item>@drawable/account</item>
+    </string-array>
+
+    <string-array name="mail_title">
+        <item>Transaksi berhasil.</item>
+        <item>Perbarui langganan anda.</item>
+        <item>Congratulations!</item>
+        <item>Temukan alumni anda!</item>
+        <item>Fitur baru</item>
+        <item>Beasiswa dibuka di Del</item>
+        <item>Explore new datasets</item>
+        <item>Uncertified test result</item>
+        <item>Buletin Quora</item>
+        <item>New Patch!</item>
+    </string-array>
+
+    <string-array name="mail_message">
+        <item>Transaksi yang anda lakukan pada hari minggu 14 Maret 2022 berhasil</item>
+        <item>Perbarui cara pembayaran anda agar pembayaran dapat berlangsung</item>
+        <item>We are glad to inform you that you have been selected as a new </item>
+        <item>Temukan alumni dari sekolah dan universitas anda melalui fitur</item>
+        <item>Buka discord dan gunaka fitur terbarunya. Anda bisa</item>
+        <item>Halo rekan-rekan mahasiswa! Kita kali ini kedatangan lagi</item>
+        <item>Let us find some new datasets for machine learning</item>
+        <item>Unfortunately, your test could not have been certified.</item>
+        <item>Apakah betul jika kita sedang pusing, berat badan cenderung turun?</item>
+        <item>Update v 14.9. Now everyone can see their last deleted message</item>
+    </string-array>
 </resources>

@@ -106,7 +106,7 @@ class MainActivity : AppCompatActivity() {
                     true
                 }
 
-                R.id.nav_all_mail -> {
+                R.id.nav_all_inboxes -> {
                     loadFragment(FLAG_FRAGMENT_DASHBOARD, "Memilih menu Outbox!")
                     binding.drawerLayout.closeDrawer(GravityCompat.START)
                     true

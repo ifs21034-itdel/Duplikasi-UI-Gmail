@@ -25,8 +25,8 @@ class NotificationFragment : Fragment() {
         val viewPager = binding.vpFragmentNotification
         val pagerAdapter = NotificationPagerAdapter(requireActivity())
         viewPager.adapter = pagerAdapter
-        pagerAdapter.info1 = "Notifikasi Belum Dibaca"
-        pagerAdapter.info2 = "Notifikasi Sudah Dibaca"
+        pagerAdapter.info1 = "Get a link you can share"
+        pagerAdapter.info2 = "Your meeting is safe"
 
         val tabs = binding.tabFragmentNotification
         TabLayoutMediator(tabs, viewPager) { tab, position ->

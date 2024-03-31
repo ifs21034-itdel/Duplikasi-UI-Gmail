@@ -7,17 +7,6 @@
     android:layout_height="match_parent"
     tools:context=".DashboardFragment">
 
-    <TextView
-        android:id="@+id/tvFragmentDashboardTitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="Fragment Dashboard"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <com.google.android.material.search.SearchBar
         android:id="@+id/sbFragmentDashboard"
         android:layout_width="0dp"
@@ -26,8 +15,7 @@
         android:hint="Saya ingin mencari..."
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf
-            ="@+id/tvFragmentDashboardTitle" />
+        app:layout_constraintTop_toTopOf="@+id/svFragmentDashboard"/>
 
     <com.google.android.material.search.SearchView
         android:id="@+id/svFragmentDashboard"

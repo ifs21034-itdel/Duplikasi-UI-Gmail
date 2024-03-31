@@ -7,75 +7,75 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_inbox"
-            android:icon="@drawable/ic_home"
+            android:icon="@drawable/ic_all_inboxes"
             android:title="All inboxes" />
         <item
             android:id="@+id/nav_primary"
-            android:icon="@drawable/ic_person"
+            android:icon="@drawable/ic_primary"
             android:title="Primary" />
         <item
             android:id="@+id/nav_promotions"
-            android:icon="@drawable/ic_notes"
+            android:icon="@drawable/ic_social"
             android:title="Promotions" />
         <item
             android:id="@+id/nav_social"
-            android:icon="@drawable/ic_notes"
+            android:icon="@drawable/ic_social"
             android:title="Social" />
         <item
             android:id="@+id/nav_starred"
-            android:icon="@drawable/ic_notes"
+            android:icon="@drawable/ic_starred"
             android:title="Starred" />
         <item
             android:id="@+id/nav_snoozed"
-            android:icon="@drawable/ic_notes"
+            android:icon="@drawable/ic_snoozed"
             android:title="Snoozed" />
         <item
             android:id="@+id/nav_important"
-            android:icon="@drawable/ic_notes"
+            android:icon="@drawable/ic_important"
             android:title="Important" />
         <item
             android:id="@+id/nav_sent"
-            android:icon="@drawable/ic_notes"
+            android:icon="@drawable/ic_sent"
             android:title="Sent" />
         <item
             android:id="@+id/nav_scheduled"
-            android:icon="@drawable/ic_notes"
+            android:icon="@drawable/ic_scheduled"
             android:title="Scheduled" />
         <item
             android:id="@+id/nav_outbox"
-            android:icon="@drawable/ic_notes"
+            android:icon="@drawable/ic_outbox"
             android:title="Outbox" />
         <item
             android:id="@+id/nav_drafts"
-            android:icon="@drawable/ic_notes"
+            android:icon="@drawable/ic_drafts"
             android:title="Drafts" />
         <item
-            android:id="@+id/nav_all_mail"
-            android:icon="@drawable/ic_notes"
+            android:id="@+id/nav_all_inboxes"
+            android:icon="@drawable/ic_all_inboxes"
             android:title="All mail" />
         <item
             android:id="@+id/nav_spam"
-            android:icon="@drawable/ic_notes"
+            android:icon="@drawable/ic_spam"
             android:title="Spam" />
         <item
             android:id="@+id/nav_trash"
-            android:icon="@drawable/ic_notes"
+            android:icon="@drawable/ic_trash"
             android:title="Trash" />
         <item
             android:id="@+id/nav_calendar"
-            android:icon="@drawable/ic_notes"
+            android:icon="@drawable/ic_calendar"
             android:title="Calendar" />
         <item
             android:id="@+id/nav_contacts"
-            android:icon="@drawable/ic_notes"
+            android:icon="@drawable/ic_contacts"
             android:title="Contacts" />
         <item
             android:id="@+id/nav_settings"
-            android:icon="@drawable/ic_notes"
+            android:icon="@drawable/ic_settings"
             android:title="Settings" />
         <item
             android:id="@+id/nav_help"
-            android:icon="@drawable/ic_notes"
+            android:icon="@drawable/ic_help"
             android:title="Helps" />
     </group>
 </menu>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_mail"
+        android:icon="@drawable/ic_dashboard"
+        android:title="Mail" />
+
+    <item
+        android:id="@+id/navigation_Meet"
+        android:icon="@drawable/ic_notifications"
+        android:title="Meet" />
+
+</menu>
